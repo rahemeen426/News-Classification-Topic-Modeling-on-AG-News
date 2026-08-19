@@ -163,7 +163,31 @@ BERT's attention mechanism weighs "stock" more heavily than "Apple," and its con
 ├── reports/                # Figures, dashboards, pyLDAvis outputs
 └── README.md
 ```
+<<<<<<< HEAD
 *(Update this tree once the full project is uploaded.)*
+=======
+# AG News Intelligence Hub (How to Run)
+
+## Installation
+
+1.  Ensure you have Python installed (3.8+ recommended).
+2.  Install dependencies:
+    ```bash
+    py -m pip install -r requirements.txt
+    ```
+
+## Execution
+
+Run the Streamlit app:
+```bash
+py -m streamlit run app.py
+```
+
+## Note
+- The first run will download the AG News dataset and the BERT model, which may take a minute.
+- SVM model is trained on the fly on first load and cached.
+
+>>>>>>> 0acd890 (Initial commit)
 
 ## Author
 
