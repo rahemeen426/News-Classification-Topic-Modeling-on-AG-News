@@ -2,9 +2,6 @@
 
 Supervised text classification and unsupervised topic discovery on a 127K-article news corpus — comparing a TF-IDF SVM baseline, a rule-based hybrid system, and a fine-tuned BERT transformer for classification, and LDA vs. NMF for topic modeling.
 
-> Natural Language Processing project — Università degli Studi di Milano-Bicocca
-> Prof. Elisabetta Fersini · Prof. Alessandro Raganato
-
 <!-- Optional badges — uncomment / edit once the repo is live
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -20,7 +17,7 @@ Online news volume is growing exponentially, and manual categorization and conte
 
 ## Dataset
 
-**[AG News](https://huggingface.co/datasets/ag_news)** (via Hugging Face Datasets)
+**[AG News](https://huggingface.co/datasets/sh0416/ag_news)** (via Hugging Face Datasets)
 
 | | |
 |---|---|
